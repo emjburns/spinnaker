@@ -23,3 +23,7 @@ server:
 redis:
   connection: ${services.redis.connection}
 
+# Uncomment to allow any http or https request from 
+# localhost or *.example.com with or without a port supplied. 
+# cors:
+#   allowedOriginsPattern: '^https?://(?:localhost|[^/]+\.example\.com)(?::[1-9]\d*)?/?$'
